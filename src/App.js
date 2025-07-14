@@ -4,7 +4,6 @@ import 'react-toastify/dist/ReactToastify.css';
 import Cards from './components/Cards';
 import Footer from './components/Footer';
 import Hero from './components/Hero';
-import Navbar from './components/Navbar';
 import Demo from './components/Demo';
 import TestCaseDemo from './components/TestCaseDemo';
 import MainFooter from './components/MainFooter';
@@ -16,7 +15,7 @@ function App() {
   return (
     <>
       <Router>
-        <Navbar />
+        
         <Routes>
           <Route path="/" element={<Hero />} />
           <Route path="/demo" element={<Demo />} />

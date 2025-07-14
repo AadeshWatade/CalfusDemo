@@ -9,10 +9,12 @@ import TransforMate from '../assets/TransforMate.png';
 import Clarion from '../assets/Clarion.png';
 import Explora from '../assets/Explora.png';
 import Opticode from '../assets/Opticode.png';
+import Navbar from './Navbar';
 
 const Cards = () => {
   return (
     <div>
+        <Navbar />
         <Analytics />
         <h1 className='text-center text-4xl font-bold py-8 bg-[#e5e7eb] text-black pt-24'>Meet our AI Agents </h1>
     <div className='w-full px-4 pb-24 bg-[#e5e7eb]'>
